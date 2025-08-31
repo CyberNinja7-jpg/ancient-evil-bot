@@ -1,0 +1,17 @@
+{
+  "name": "evil-bot",
+  "version": "1.0.0",
+  "description": "Ancient / evil-themed WhatsApp bot (QR + pairing code) — roleplay only",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.0",
+    "express": "^4.18.2",
+    "qrcode": "^1.5.1",
+    "pino": "^8.12.0",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2"
+  }
+}
